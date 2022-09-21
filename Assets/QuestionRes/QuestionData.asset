@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a67188d82c82d94084619177328bb21, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Africa is a --------?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Continent
+    - Country
+    - World
+    - isLand
+    correctAnswer: Continent
+  - questionInfo: 5 + ?? = 15
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - 50
+    - 15
+    - 5
+    - 10
+    correctAnswer: 10
+  - questionInfo: print("Hello world") is a syntax for which programming language
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Python
+    - Java
+    - C++
+    - Kotlin
+    correctAnswer: Python
+  - questionInfo: All but one of the following can't be used for unity multiplayer
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Mirror
+    - Firebase
+    - Photon
+    - PHP
+    correctAnswer: PHP
+  - questionInfo: private Transform(Transform t) returns ___?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Vector3
+    - Position
+    - Rotation
+    - t
+    correctAnswer: Position
