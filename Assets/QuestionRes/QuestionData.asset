@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: QuestionData
   m_EditorClassIdentifier: 
   questions:
-  - questionInfo: Africa is a --------?
+  - questionInfo: Which of this Engine is NOT suitable for game development
     questionType: 0
     questionImage: {fileID: 0}
     options:
-    - Continent
-    - Country
-    - World
-    - isLand
-    correctAnswer: Continent
+    - Unity
+    - Unreal
+    - Coco2D
+    - Android Studio
+    correctAnswer: Android Studio
   - questionInfo: 5 + ?? = 15
     questionType: 0
     questionImage: {fileID: 0}
@@ -58,3 +58,102 @@ MonoBehaviour:
     - Rotation
     - t
     correctAnswer: Position
+  - questionInfo: Unity Canvas displays what kind of object?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - UI
+    - Materials
+    - Assets
+    - Scripts
+    correctAnswer: UI
+  - questionInfo: Transform.Rotate() is used to _____ to gameObject
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Rotate
+    - Move
+    - Curve
+    - None of the above
+    correctAnswer: Rotate
+  - questionInfo: IEnumerate() function can be similar to which of these function___?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Update()
+    - OnTrigger()
+    - OnWait()
+    - Invoke()
+    correctAnswer: Invoke()
+  - questionInfo: What does Raycast in Unity does?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Update game physics
+    - Let you know if you hit something
+    - Defining interaction between layers
+    - Memory Allocation
+    correctAnswer: Let you know if you hit something
+  - questionInfo: Transform.Translate is use for what in Unity?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Update game physics
+    - Move a gameobject at distance of 30m
+    - Move a gameobject at distance of 60m
+    - Move a gameobject at a particular direction
+    correctAnswer: Move a gameobject at a particular direction
+  - questionInfo: Colliders in Unity is used for what?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Know when a gameobject collided with something
+    - Checks the size of a gameobject
+    - None of the above
+    - Used to adjust the size of gameobject
+    correctAnswer: Know when a gameobject collided with something
+  - questionInfo: ___is use to sort array in Unity C# scripting
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - array.sort()
+    - array.sorted()
+    - array.Sort()
+    - array.Sorted()
+    correctAnswer: array.Sort()
+  - questionInfo: Text can be animated in unity
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Yes
+    - No
+    - Not allthe time
+    - Possible but not yet
+    correctAnswer: Yes
+  - questionInfo: All these are the benefit of object pooling execept____?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Helps reduce memorycall
+    - Optimization benefit
+    - Reduce time in writingbulky codes
+    - Performance purpose
+    correctAnswer: Reduce time in writingbulky codes
+  - questionInfo: All these can be developed in Unity Engine execept?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Game
+    - MusicApp
+    - All of the above
+    - VR and AR
+    correctAnswer: All of the above
+  - questionInfo: Unity App/games can be deployed to the folowing platform execept___?
+    questionType: 0
+    questionImage: {fileID: 0}
+    options:
+    - Android
+    - IOS
+    - Windows
+    - PSvita
+    correctAnswer: PSvita
